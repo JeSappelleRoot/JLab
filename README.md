@@ -1,5 +1,8 @@
 # JLab - Custom Jupyter Lab 
 
+Jupyter Lab custom docker image based on base-notebook existing image.
+See the different images from the [doc](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+
 ## Build
 
 Simply start the docker image build with `docker build -t jlab:latest .`
