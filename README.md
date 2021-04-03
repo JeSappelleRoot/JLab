@@ -52,7 +52,7 @@ docker run --name jlab \
 -e JUPYTER_ENABLE_LAB=yes \
 -e GEN_CERT=yes \
 -p 8888:8888 \
--v ./notebooks:/home/jovyan/work \
+-v $PWD/notebooks:/home/jovyan/work \
 jlab:latest start-notebook.sh --NotebookApp.notebook_dir="/home/jovyan/work"
 ```
 
@@ -64,7 +64,7 @@ docker run --name jlab \
 -e JUPYTER_ENABLE_LAB=yes \
 -e GEN_CERT=yes \
 -p 8888:8888 \
--v ./notebooks:/home/jovyan/work \
+-v $PWD/notebooks:/home/jovyan/work \
 jlab:latest start-notebook.sh --NotebookApp.password='sha1:74ba40f8a388:c913541b7ee99d15d5ed31d4226bf7838f83a50e'
 ```
 
@@ -82,7 +82,7 @@ docker run --name jlab \
 -e JUPYTER_ENABLE_LAB=yes \
 -e GEN_CERT=yes \
 -p 8888:8888 \
--v ./notebooks:/home/jovyan/work \
+-v $PWD/notebooks:/home/jovyan/work \
 jlab:latest start-notebook.sh --NotebookApp.portInt=443
 ```
 
