@@ -19,3 +19,28 @@ Then, start the container with :
 
 [See basic options for container](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html)  
 [See full documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
+
+## What's different with this image ? 
+
+### Kernels
+
+The JLab image include :  
+- Python kernel 
+- Powershell kernel (v7.0)
+- LaTex support
+
+### Plugins and extensions
+
+The JLab image include some Jupyter plugins : 
+- jupyter-archive to manage archives files from the webui
+- jupyterlab-git to manage Git repositories
+- JLDracula, famous Dracula theme
+- jupyterlab-horizon-theme, another theme
+- jupyterthemes, a bundle of themes for the webui
+- powershell_kernel to support Powershell 7.0
+
+The JLab image include few Jupyter Lab extensions : 
+- jupyterlab-topbar-extension, to add a customizable top bar
+- jupyterlab-theme-toogle, to add a switch (dark/light theme) on the top right corner
+- jupyterlab_city_lights-theme, another theme
+
