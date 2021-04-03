@@ -21,9 +21,10 @@ jupyterlab-horizon-theme \
 jupyterthemes \
 jupyterlab-spellchecker \
 jupyterlab-lsp \
-'python-language-server[all]' \
+"python-language-server[all]" \
 jupyterlab_code_formatter \
 black \
+"jupyterlab-kite>=2.0.2" \
 powershell_kernel
 
 # Finalize PowerShell Jupyter kernel installation
