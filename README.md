@@ -81,11 +81,11 @@ docker run --name jlab \
 -e RESTARTABLE=yes \
 -e JUPYTER_ENABLE_LAB=yes \
 -e GEN_CERT=yes \
--p 8888:8888 \
+-p 443:433 \
 -v $PWD/notebooks:/home/jovyan/work \
 jlab:latest start-notebook.sh --NotebookApp.portInt=443
 ```
-
+> You need to update the exposed port here to match the Jupyter listening port
 
 
 See all available [options](https://jupyter-notebook.readthedocs.io/en/stable/config.html)
