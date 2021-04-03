@@ -4,7 +4,7 @@ FROM jupyter/base-notebook:latest
 USER root
 
 # Install PowerShell 7
-RUN apt-get update && apt-get install -y wget git apt-transport-https software-properties-common && \
+RUN apt-get update && apt-get install -y wget git nodejs apt-transport-https software-properties-common && \
 wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb && \
 dpkg -i packages-microsoft-prod.deb && \
 apt-get update && add-apt-repository universe && apt-get install -y powershell
