@@ -27,6 +27,15 @@ powershell_kernel
 # Finalize PowerShell Jupyter kernel installation
 RUN python -m powershell_kernel.install
 
+# Install LSP language servers
+RUN npm install --save-dev \
+yaml-language-server \
+vscode-json-languageserver-bin \
+unified-language-server \
+dockerfile-language-server-nodejs \
+bash-language-server
+
+
 # Install Jupyter Lab extensions
 RUN jupyter labextension install --no-build \
 jupyterlab-topbar-extension \
