@@ -1,3 +1,11 @@
+- [JLab - Custom Jupyter Lab](#jlab---custom-jupyter-lab)
+  - [Build](#build)
+  - [Start the container](#start-the-container)
+  - [Add extra Jupyter arguments](#add-extra-jupyter-arguments)
+  - [What's different with this image ?](#whats-different-with-this-image-)
+    - [Kernels](#kernels)
+    - [Plugins, themes and extensions](#plugins-themes-and-extensions)
+
 # JLab - Custom Jupyter Lab 
 
 Jupyter Lab custom docker image based on base-notebook existing image.
