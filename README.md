@@ -32,15 +32,15 @@ The JLab image include :
 ### Plugins and extensions
 
 The JLab image include some Jupyter plugins : 
-- jupyter-archive to manage archives files from the webui
-- jupyterlab-git to manage Git repositories
-- JLDracula, famous Dracula theme
-- jupyterlab-horizon-theme, another theme
-- jupyterthemes, a bundle of themes for the webui
-- powershell_kernel to support Powershell 7.0
+- [jupyter-archive](https://github.com/jupyterlab-contrib/jupyter-archive/) to manage archives files from the webui
+- [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) to manage Git repositories
+- [JLDracula](https://github.com/dracula/jupyterlab), famous Dracula theme
+- [jupyterlab-horizon-theme](https://github.com/mohirio/jupyterlab-horizon-theme), another theme
+- [jupyterthemes](https://github.com/dunovank/jupyter-themes), a bundle of themes for the webui
+- [powershell_kernel](https://github.com/vors/jupyter-powershell) to support Powershell 7.0
 
 The JLab image include few Jupyter Lab extensions : 
-- jupyterlab-topbar-extension, to add a customizable top bar
-- jupyterlab-theme-toogle, to add a switch (dark/light theme) on the top right corner
-- jupyterlab_city_lights-theme, another theme
+- [jupyterlab-topbar-extension](https://github.com/jtpio/jupyterlab-topbar), to add a customizable top bar
+- [jupyterlab-theme-toogle](https://github.com/jtpio/jupyterlab-theme-toggle), to add a switch (dark/light theme) on the top right corner
+- [jupyterlab_city_lights-theme](https://github.com/yudai-nkt/jupyterlab_city-lights-theme), nother theme
 
