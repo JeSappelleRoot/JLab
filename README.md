@@ -44,7 +44,7 @@ The JLab image include some extra themes :
 - [jupyterlab-horizon-theme](https://github.com/mohirio/jupyterlab-horizon-theme), another theme
 - [jupyterthemes](https://github.com/dunovank/jupyter-themes), a bundle of themes for the webui
 - [jupyterlab_city_lights-theme](https://github.com/yudai-nkt/jupyterlab_city-lights-theme), nother theme
-
+- [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with AutoPEP8 (default formatter)
 
 The JLab image include few Jupyter Lab extensions : 
 - [jupyterlab-topbar-extension](https://github.com/jtpio/jupyterlab-topbar), to add a customizable top bar
