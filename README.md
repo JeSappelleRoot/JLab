@@ -37,6 +37,7 @@ The JLab image include some Jupyter plugins :
 - [powershell_kernel](https://github.com/vors/jupyter-powershell) to support Powershell 7.0
 - [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker) to include a spell checker
 - [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) to provide more IDE functionalities
+- [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with AutoPEP8 (default formatter)
 
 The JLab image include some extra themes : 
 
@@ -44,7 +45,6 @@ The JLab image include some extra themes :
 - [jupyterlab-horizon-theme](https://github.com/mohirio/jupyterlab-horizon-theme), another theme
 - [jupyterthemes](https://github.com/dunovank/jupyter-themes), a bundle of themes for the webui
 - [jupyterlab_city_lights-theme](https://github.com/yudai-nkt/jupyterlab_city-lights-theme), nother theme
-- [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with AutoPEP8 (default formatter)
 
 The JLab image include few Jupyter Lab extensions : 
 - [jupyterlab-topbar-extension](https://github.com/jtpio/jupyterlab-topbar), to add a customizable top bar
