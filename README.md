@@ -41,7 +41,6 @@ The JLab image include some Jupyter plugins :
 - [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker) to include a spell checker
 - [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) to provide more IDE functionalities
 - [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with Black (default formatter)
-- [jupyterlab-kite](https://github.com/kiteco/jupyterlab-kite) to provide autocompletion
 
 
 The JLab image include some extra themes : 
