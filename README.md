@@ -74,6 +74,20 @@ from notebook.auth import passwd
 passwd()
 ```
 
+- Use a custom port for the Jupyter Lab webui
+
+```
+docker run --name jlab \
+-e RESTARTABLE=yes \
+-e JUPYTER_ENABLE_LAB=yes \
+-e GEN_CERT=yes \
+-p 8888:8888 \
+-v ./notebooks:/home/jovyan/work \
+jlab:latest start-notebook.sh --NotebookApp.portInt=443
+```
+
+
+
 See all available [options](https://jupyter-notebook.readthedocs.io/en/stable/config.html)
 
 ## What's different with this image ? 
