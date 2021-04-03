@@ -44,7 +44,37 @@ docker run --name jlab \
 jlab:latest start-notebook.sh <Jupyter options>
 ```
 
+- Change the working directory
 
+```
+docker run --name jlab \
+-e RESTARTABLE=yes \
+-e JUPYTER_ENABLE_LAB=yes \
+-e GEN_CERT=yes \
+-p 8888:8888 \
+-v ./notebooks:/home/jovyan/work \
+jlab:latest start-notebook.sh --NotebookApp.notebook_dir="/home/jovyan/work"
+```
+
+- Specify password to open the web ui (SHA1 format)
+
+```
+docker run --name jlab \
+-e RESTARTABLE=yes \
+-e JUPYTER_ENABLE_LAB=yes \
+-e GEN_CERT=yes \
+-p 8888:8888 \
+-v ./notebooks:/home/jovyan/work \
+jlab:latest start-notebook.sh --NotebookApp.password='sha1:74ba40f8a388:c913541b7ee99d15d5ed31d4226bf7838f83a50e'
+```
+
+> To generate the password use 
+```python
+from notebook.auth import passwd
+passwd()
+```
+
+See all available [options](https://jupyter-notebook.readthedocs.io/en/stable/config.html)
 
 ## What's different with this image ? 
 
