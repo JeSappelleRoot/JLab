@@ -24,9 +24,6 @@ jupyterlab-lsp \
 'python-language-server[all]' \
 jupyterlab_code_formatter \
 autopep8 \
-black \
-isort \
-yapf \
 powershell_kernel
 
 # Finalize PowerShell Jupyter kernel installation
