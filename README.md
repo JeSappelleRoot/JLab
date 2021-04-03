@@ -28,7 +28,7 @@ Then, start the container with :
 ### Kernels
 
 The JLab image include :  
-- Python kernel 
+- Python kernel (v3.8.8) 
 - Powershell kernel (v7.0)
 - LaTex support
 
@@ -40,7 +40,7 @@ The JLab image include some Jupyter plugins :
 - [powershell_kernel](https://github.com/vors/jupyter-powershell) to support Powershell 7.0
 - [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker) to include a spell checker
 - [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) to provide more IDE functionalities
-- [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with AutoPEP8 (default formatter)
+- [jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/index.html) to format code with Black (default formatter)
 
 The JLab image include some extra themes : 
 
