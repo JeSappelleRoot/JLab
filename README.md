@@ -16,7 +16,7 @@ docker run --name jlab \
 -e JUPYTER_ENABLE_LAB=yes \
 -e GEN_CERT=yes \
 -p 8888:8888 \
--v ./notebooks:/home/jovyan/work \
+-v "$(pwd)"/notebooks:/home/jovyan/work \
 jlab:latest
 ```
 
