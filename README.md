@@ -65,27 +65,16 @@ docker run --name jlab \
 -e GEN_CERT=yes \
 -p 8888:8888 \
 -v $PWD/notebooks:/home/jovyan/work \
-jlab:latest start-notebook.sh --NotebookApp.password='sha1:74ba40f8a388:c913541b7ee99d15d5ed31d4226bf7838f83a50e'
+jlab:latest start-notebook.sh --NotebookApp.password='argon2:$argon2id$v=19$m=10240,t=10,p=8$xbiVzR/7soNiT8++xD4A4Q$iduvLUaH0/TQzlAn7Dl4ww'
 ```
 
 > To generate the password use 
 ```python
-from notebook.auth import passwd
-passwd()
-```
+import notebook
+notebook.auth.passwd('s3cret')
 
-- Use a custom port for the Jupyter Lab webui
-
+'argon2:$argon2id$v=19$m=10240,t=10,p=8$xbiVzR/7soNiT8++xD4A4Q$iduvLUaH0/TQzlAn7Dl4ww'
 ```
-docker run --name jlab \
--e RESTARTABLE=yes \
--e JUPYTER_ENABLE_LAB=yes \
--e GEN_CERT=yes \
--p 443:433 \
--v $PWD/notebooks:/home/jovyan/work \
-jlab:latest start-notebook.sh --NotebookApp.portInt=443
-```
-> You need to update the exposed port here to match the Jupyter listening port
 
 
 See all available [options](https://jupyter-notebook.readthedocs.io/en/stable/config.html)
