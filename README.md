@@ -35,6 +35,8 @@ The JLab image include some Jupyter plugins :
 - [jupyter-archive](https://github.com/jupyterlab-contrib/jupyter-archive/) to manage archives files from the webui
 - [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) to manage Git repositories
 - [powershell_kernel](https://github.com/vors/jupyter-powershell) to support Powershell 7.0
+- [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker) to include a spell checker
+- [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) to provide more IDE functionalities
 
 The JLab image include some extra themes : 
 
@@ -47,4 +49,5 @@ The JLab image include some extra themes :
 The JLab image include few Jupyter Lab extensions : 
 - [jupyterlab-topbar-extension](https://github.com/jtpio/jupyterlab-topbar), to add a customizable top bar
 - [jupyterlab-theme-toogle](https://github.com/jtpio/jupyterlab-theme-toggle), to add a switch (dark/light theme) on the top right corner
+- [@jupyterlab/toc](https://github.com/jupyterlab/jupyterlab-toc) to generate Markdown table of content
 

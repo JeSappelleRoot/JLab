@@ -19,6 +19,9 @@ jupyterlab-git \
 JLDracula \
 jupyterlab-horizon-theme \
 jupyterthemes \
+jupyterlab-spellchecker \
+jupyterlab-lsp \
+'python-language-server[all]' \
 powershell_kernel
 
 # Finalize PowerShell Jupyter kernel installation
@@ -28,7 +31,8 @@ RUN python -m powershell_kernel.install
 RUN jupyter labextension install --no-build \
 jupyterlab-topbar-extension \
 jupyterlab-theme-toggle \
-@yudai-nkt/jupyterlab_city-lights-theme
+@yudai-nkt/jupyterlab_city-lights-theme \
+@jupyterlab/toc
 
 # Add LaTex support
 # Fix found in GitHub
