@@ -59,7 +59,7 @@ pip install -e . && \
 jlpm install && \
 jlpm run build && \
 jupyter labextension install . --no-build && \
-cd .. && rm jupyterlab-latex
+cd .. && rm -r jupyterlab-latex
 
 # Final Jupyter lab build to include installed extensions
 RUN jupyter lab build
