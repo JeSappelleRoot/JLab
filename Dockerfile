@@ -45,7 +45,9 @@ jupyterlab-theme-toggle \
 @yudai-nkt/jupyterlab_city-lights-theme \
 @jupyterlab/toc \
 jupyterlab_onedarkpro \
-jupyterlab-tailwind-theme
+jupyterlab-tailwind-theme \
+@yeebc/jupyterlab_neon_theme \
+@konodyuk/theme-ayu-mirage
 
 # Add LaTex support
 # Fix found in GitHub
