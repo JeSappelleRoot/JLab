@@ -43,7 +43,8 @@ RUN jupyter labextension install --no-build \
 jupyterlab-topbar-extension \
 jupyterlab-theme-toggle \
 @yudai-nkt/jupyterlab_city-lights-theme \
-@jupyterlab/toc
+@jupyterlab/toc \
+jupyterlab_onedarkpro
 
 # Add LaTex support
 # Fix found in GitHub
