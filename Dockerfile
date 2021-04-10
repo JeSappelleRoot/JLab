@@ -44,7 +44,8 @@ jupyterlab-topbar-extension \
 jupyterlab-theme-toggle \
 @yudai-nkt/jupyterlab_city-lights-theme \
 @jupyterlab/toc \
-jupyterlab_onedarkpro
+jupyterlab_onedarkpro \
+jupyterlab-tailwind-theme
 
 # Add LaTex support
 # Fix found in GitHub
