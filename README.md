@@ -112,7 +112,11 @@ The JLab image include some extra themes :
 - [JLDracula](https://github.com/dracula/jupyterlab), famous Dracula theme
 - [jupyterlab-horizon-theme](https://github.com/mohirio/jupyterlab-horizon-theme), another theme
 - [jupyterthemes](https://github.com/dunovank/jupyter-themes), a bundle of themes for the webui
-- [jupyterlab_city_lights-theme](https://github.com/yudai-nkt/jupyterlab_city-lights-theme), nother theme
+- [jupyterlab_city_lights-theme](https://github.com/yudai-nkt/jupyterlab_city-lights-theme), another theme
+- [ayu-mirage](https://github.com/konodyuk/theme-ayu-mirage), another theme  
+- [neon](https://github.com/timkpaine/jupyterlab_miami_nights), another funky theme  
+- [One Dark Pro](https://github.com/johnnybarrels/jupyterlab_onedarkpro), a classic theme  
+- [tailwind](https://github.com/simicd/jupyterlab-tailwind-theme)
 
 The JLab image include few Jupyter Lab extensions : 
 - [jupyterlab-topbar-extension](https://github.com/jtpio/jupyterlab-topbar), to add a customizable top bar
